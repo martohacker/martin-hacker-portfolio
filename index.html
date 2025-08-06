@@ -1,0 +1,404 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Martin Hacker - Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <!-- Navegación -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <h2>Martin Hacker</h2>
+            </div>
+            <ul class="nav-menu">
+                <li><a href="#inicio" class="nav-link">Inicio</a></li>
+                <li><a href="#sobre-mi" class="nav-link">Sobre Mí</a></li>
+                <li><a href="#experiencia" class="nav-link">Experiencia</a></li>
+                <li><a href="#proyectos" class="nav-link">Proyectos</a></li>
+                <li><a href="#habilidades" class="nav-link">Habilidades</a></li>
+                <li><a href="#contacto" class="nav-link">Contacto</a></li>
+            </ul>
+            <div class="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Sección Hero -->
+    <section id="inicio" class="hero">
+        <div class="hero-container">
+            <div class="hero-content">
+                <h1 class="hero-title">
+                    Hola, soy <span class="highlight">Martin Hacker</span>
+                </h1>
+                <p class="hero-subtitle">Desarrollador Full Stack & Ingeniero Informático</p>
+                <p class="hero-description">
+                    Egresado de informática en la escuela ORT, estudiante de Ingeniería Informática en UADE. 
+                    Apasionado por las nuevas tecnologías y el desarrollo de software.
+                </p>
+                <div class="hero-buttons">
+                    <a href="#proyectos" class="btn btn-primary">Ver Proyectos</a>
+                    <a href="#contacto" class="btn btn-secondary">Contactar</a>
+                </div>
+            </div>
+            <div class="hero-image">
+                <div class="profile-card">
+                    <div class="profile-image">
+                        <i class="fas fa-user-circle"></i>
+                    </div>
+                    <div class="profile-info">
+                        <h3>Martin Hacker</h3>
+                        <p>Full Stack Developer</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Sección Sobre Mí -->
+    <section id="sobre-mi" class="about">
+        <div class="container">
+            <h2 class="section-title">Sobre Mí</h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <p>
+                        Egresado de informática en la escuela ORT, estudiante de Ingeniería Informática en UADE. 
+                        Apasionado por las nuevas tecnologías y el deporte. Me gusta mucho trabajar en equipo 
+                        y enfrentarme a problemáticas y proyectos nuevos.
+                    </p>
+                    <p>
+                        Con experiencia en desarrollo full stack, testing y automatización, me especializo 
+                        en crear soluciones tecnológicas innovadoras que resuelven problemas reales.
+                    </p>
+                    <div class="education-info">
+                        <h3>Formación Académica</h3>
+                        <div class="education-item">
+                            <h4>UADE - Facultad de Ingeniería y Ciencias Exactas</h4>
+                            <p class="period">Marzo 2022 - Actualidad</p>
+                            <p>Ingeniería Informática, Cursando 4 materias del Segundo Cuatrimestre del Cuarto año</p>
+                        </div>
+                        <div class="education-item">
+                            <h4>Escuela Técnica ORT</h4>
+                            <p class="period">2017 - 2021</p>
+                            <p>Bachiller en Informática con Certificación Jurisdiccional en Diseño y Desarrollo de Aplicaciones Web y Móviles</p>
+                        </div>
+                    </div>
+                    <div class="about-stats">
+                        <div class="stat">
+                            <h3>3+</h3>
+                            <p>Años de Experiencia</p>
+                        </div>
+                        <div class="stat">
+                            <h3>4</h3>
+                            <p>Empresas Trabajadas</p>
+                        </div>
+                        <div class="stat">
+                            <h3>5</h3>
+                            <p>Proyectos Completados</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="about-image">
+                    <div class="about-card">
+                        <i class="fas fa-code"></i>
+                        <h3>Desarrollo Web</h3>
+                        <p>Frontend y Backend</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Sección Proyectos -->
+    <section id="proyectos" class="projects">
+        <div class="container">
+            <h2 class="section-title">Mis Proyectos</h2>
+            <div class="projects-grid">
+                <div class="project-card">
+                    <div class="project-image">
+                        <i class="fas fa-building"></i>
+                    </div>
+                    <div class="project-content">
+                        <h3>BeresoApi - Sistema de Gestión</h3>
+                        <p>Desarrollo de API REST y aplicación web para sistema de gestión empresarial. Incluye autenticación, gestión de usuarios y módulos administrativos.</p>
+                        <div class="project-tech">
+                            <span class="tech-tag">API REST</span>
+                            <span class="tech-tag">Java</span>
+                            <span class="tech-tag">Spring Boot</span>
+                            <span class="tech-tag">SQL Server</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="http://app.beresoft.ar:8083/login" target="_blank" class="project-link"><i class="fas fa-external-link-alt"></i> Demo</a>
+                            <a href="https://github.com/martohacker/BeresoApi" target="_blank" class="project-link"><i class="fab fa-github"></i> Código</a>
+                        </div>
+                        <div class="project-status">
+                            <span class="status-badge status-live">En Producción</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-image">
+                        <i class="fas fa-globe"></i>
+                    </div>
+                    <div class="project-content">
+                        <h3>BereSoft - Sitio Web Corporativo</h3>
+                        <p>Desarrollo del sitio web oficial de BereSoft, empresa de soluciones de software a medida. Proyecto en desarrollo activo con diseño moderno y responsive.</p>
+                        <div class="project-tech">
+                            <span class="tech-tag">HTML/CSS</span>
+                            <span class="tech-tag">JavaScript</span>
+                            <span class="tech-tag">Responsive Design</span>
+                            <span class="tech-tag">Web Development</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://beresoft.com.ar/" target="_blank" class="project-link"><i class="fas fa-external-link-alt"></i> Sitio Web</a>
+                            <a href="https://github.com/martohacker/BeresoftSite" target="_blank" class="project-link"><i class="fab fa-github"></i> Código</a>
+                        </div>
+                        <div class="project-status">
+                            <span class="status-badge">En Desarrollo</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div class="project-image">
+                        <i class="fas fa-shield-alt"></i>
+                    </div>
+                    <div class="project-content">
+                        <h3>Vivi Seguro</h3>
+                        <p>Proyecto de diseño UX/UI para plataforma de seguridad residencial. Diseño de interfaces y experiencia de usuario.</p>
+                        <div class="project-tech">
+                            <span class="tech-tag">UX/UI Design</span>
+                            <span class="tech-tag">Figma</span>
+                            <span class="tech-tag">Prototyping</span>
+                        </div>
+                        <div class="project-status">
+                            <span class="status-badge status-private">Proyecto Privado</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-image">
+                        <i class="fas fa-shopping-bag"></i>
+                    </div>
+                    <div class="project-content">
+                        <h3>MainShop</h3>
+                        <p>Desarrollo Front-End para plataforma de comercio electrónico. Aplicación web con funcionalidades de e-commerce.</p>
+                        <div class="project-tech">
+                            <span class="tech-tag">React</span>
+                            <span class="tech-tag">JavaScript</span>
+                            <span class="tech-tag">CSS</span>
+                        </div>
+                        <div class="project-status">
+                            <span class="status-badge status-private">Proyecto Privado</span>
+                        </div>
+                    </div>
+                </div>
+
+           
+            </div>
+        </div>
+    </section>
+
+    <!-- Sección Experiencia -->
+    <section id="experiencia" class="experience">
+        <div class="container">
+            <h2 class="section-title">Experiencia Laboral</h2>
+            <div class="experience-content">
+                <div class="experience-item">
+                    <div class="experience-header">
+                        <h3>Developer</h3>
+                        <span class="company">Garantizar SG</span>
+                        <span class="period">Junio 2024 - Actualidad</span>
+                    </div>
+                    <p>Trabajando en el propio sistema de la empresa, desarrollando y testeando. Usando generalmente .NET y SQL.</p>
+                </div>
+                
+                <div class="experience-item">
+                    <div class="experience-header">
+                        <h3>Full Stack Developer</h3>
+                        <span class="company">NextCommerce</span>
+                        <span class="period">Octubre 2023 - Marzo 2024</span>
+                    </div>
+                    <p>Adquirí conocimientos de ASP.NET, C#, SQL y React.js.</p>
+                </div>
+                
+                <div class="experience-item">
+                    <div class="experience-header">
+                        <h3>QA Developer</h3>
+                        <span class="company">Ernst & Young</span>
+                        <span class="period">Mayo 2022 - Abril 2023</span>
+                    </div>
+                    <p>Adquirí conocimientos de Karate, Blue Prism, Selenium y Java.</p>
+                </div>
+                
+                <div class="experience-item">
+                    <div class="experience-header">
+                        <h3>Práctica Pre-Profesional en UX</h3>
+                        <span class="company">VU Security</span>
+                        <span class="period">Octubre 2021 - Diciembre 2021</span>
+                    </div>
+                    <p>Adquirí conocimientos sobre cómo funciona el mundo UX/UI.</p>
+                </div>
+                
+                <div class="experience-item">
+                    <div class="experience-header">
+                        <h3>Líder en Educación No Formal</h3>
+                        <span class="company">Macabi Club</span>
+                        <span class="period">Marzo 2021 - Actualidad</span>
+                    </div>
+                    <p>Liderazgo de un grupo de niños, acompañamiento personalizado y desarrollo de técnicas para su inclusión.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Sección Habilidades -->
+    <section id="habilidades" class="skills">
+        <div class="container">
+            <h2 class="section-title">Habilidades</h2>
+            <div class="skills-content">
+                <div class="skills-category">
+                    <h3>Lenguajes de Programación</h3>
+                    <div class="skills-grid">
+                        <div class="skill-item">
+                            <i class="fab fa-java"></i>
+                            <span>Java</span>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fas fa-hashtag"></i>
+                            <span>C#</span>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fab fa-python"></i>
+                            <span>Python</span>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fab fa-js-square"></i>
+                            <span>JavaScript</span>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fas fa-code"></i>
+                            <span>C++</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="skills-category">
+                    <h3>Frameworks & Tecnologías</h3>
+                    <div class="skills-grid">
+                        <div class="skill-item">
+                            <i class="fab fa-react"></i>
+                            <span>React</span>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fab fa-node-js"></i>
+                            <span>Node.js</span>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fas fa-leaf"></i>
+                            <span>Spring Boot</span>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fab fa-microsoft"></i>
+                            <span>.NET</span>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fas fa-database"></i>
+                            <span>SQL</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="skills-category">
+                    <h3>Testing & Herramientas</h3>
+                    <div class="skills-grid">
+                        <div class="skill-item">
+                            <i class="fas fa-bug"></i>
+                            <span>Selenium</span>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fas fa-robot"></i>
+                            <span>Blue Prism</span>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fas fa-fist-raised"></i>
+                            <span>Karate</span>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fas fa-paper-plane"></i>
+                            <span>Postman</span>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fab fa-html5"></i>
+                            <span>HTML/CSS</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Sección Contacto -->
+    <section id="contacto" class="contact">
+        <div class="container">
+            <h2 class="section-title">Contacto</h2>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <h3>¡Trabajemos juntos!</h3>
+                    <p>¿Tienes un proyecto en mente? Me encantaría escuchar sobre él.</p>
+                    <div class="contact-details">
+                        <div class="contact-item">
+                            <i class="fas fa-envelope"></i>
+                            <span>martinhacker02@gmail.com</span>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fas fa-phone"></i>
+                            <span>+54 6471-5204</span>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <span>Buenos Aires, Argentina</span>
+                        </div>
+                    </div>
+                    <div class="social-links">
+                        <a href="https://github.com/martohacker" class="social-link"><i class="fab fa-github"></i></a>
+                        <a href="https://ar.linkedin.com/in/martin-hacker-b2096a208" class="social-link"><i class="fab fa-linkedin"></i></a>
+                        <a href="https://wa.me/54964715204" class="social-link"><i class="fab fa-whatsapp"></i></a>
+                        <a href="mailto:martinhacker02@gmail.com" class="social-link"><i class="fas fa-envelope"></i></a>
+                    </div>
+                </div>
+                <form class="contact-form" action="https://formspree.io/f/tu-endpoint-aqui" method="POST">
+                    <div class="form-group">
+                        <input type="text" name="name" placeholder="Tu nombre" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="email" name="email" placeholder="Tu email" required>
+                    </div>
+                    <div class="form-group">
+                        <textarea name="message" placeholder="Tu mensaje" rows="5" required></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Enviar Mensaje</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2025 Martin Hacker. Todos los derechos reservados.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html> 
