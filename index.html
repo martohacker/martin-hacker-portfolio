@@ -3,457 +3,288 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Martin Hacker - Portfolio</title>
-    <link rel="stylesheet" href="styles.css">
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <title>Martin Hacker | Full Stack Developer</title>
+    <meta name="description" content="Portfolio de Martin Hacker, Full Stack Developer especializado en .NET, JavaScript, React, Next.js, Node.js, automatización e IA aplicada.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <!-- Navegación -->
-    <nav class="navbar">
-        <div class="nav-container">
-            <div class="nav-logo">
-                <h2>Martin Hacker</h2>
-            </div>
-            <ul class="nav-menu">
-                <li><a href="#inicio" class="nav-link">Inicio</a></li>
-                <li><a href="#sobre-mi" class="nav-link">Sobre Mí</a></li>
-                <li><a href="#experiencia" class="nav-link">Experiencia</a></li>
-                <li><a href="#proyectos" class="nav-link">Proyectos</a></li>
-                <li><a href="#habilidades" class="nav-link">Habilidades</a></li>
-                <li><a href="#contacto" class="nav-link">Contacto</a></li>
-            </ul>
-            <div class="hamburger">
-                <span class="bar"></span>
-                <span class="bar"></span>
-                <span class="bar"></span>
-            </div>
+    <header class="topbar" id="inicio">
+        <div class="container topbar-inner">
+            <a class="brand" href="#inicio">Martin Hacker</a>
+            <button class="menu-toggle" aria-label="Abrir menú">
+                <span></span><span></span><span></span>
+            </button>
+            <nav class="main-nav">
+                <a href="#sobre-mi">Sobre mí</a>
+                <a href="#proyectos">Proyectos</a>
+                <a href="#experiencia">Experiencia</a>
+                <a href="#skills">Skills</a>
+                <a href="#contacto">Contacto</a>
+            </nav>
         </div>
-    </nav>
+    </header>
 
-    <!-- Sección Hero -->
-    <section id="inicio" class="hero">
-        <div class="hero-container">
-            <div class="hero-content">
-                <h1 class="hero-title">
-                    Hola, soy <span class="highlight">Martin Hacker</span>
-                </h1>
-                <p class="hero-subtitle">Desarrollador Full Stack e Ingeniero Informático</p>
-                <p class="hero-description">
-                    Construyo aplicaciones web modernas y sistemas empresariales con React, Node.js y .NET. 
-                    Más de 4 años transformando ideas en soluciones tecnológicas que generan valor real.
-                </p>
-                <div class="hero-buttons">
-                    <a href="#proyectos" class="btn btn-primary">Ver Proyectos</a>
-                    <a href="#contacto" class="btn btn-secondary">Contactar</a>
-                </div>
-            </div>
-            <div class="hero-image">
-                <div class="profile-card">
-                    <div class="profile-image">
-                        <i class="fas fa-user-circle"></i>
+    <main>
+        <section class="hero">
+            <div class="container hero-grid">
+                <div>
+                    <p class="eyebrow">Full Stack Developer</p>
+                    <h1>Construyo productos digitales con foco en negocio, performance y experiencia de usuario.</h1>
+                    <p class="hero-copy">
+                        Trabajo con .NET, JavaScript, React.js, Next.js, Node.js, ASP.NET y SQL. También desarrollo soluciones de automatización, scraping e IA aplicada con RAG.
+                    </p>
+                    <div class="hero-cta">
+                        <a class="btn btn-primary" href="#proyectos">Ver proyectos</a>
+                        <a class="btn btn-ghost" href="#contacto">Hablemos</a>
                     </div>
-                    <div class="profile-info">
-                        <h3>Martin Hacker</h3>
-                        <p>Full Stack Developer</p>
-                    </div>
+                    <ul class="hero-metrics">
+                        <li><strong>4+</strong><span>Años de experiencia</span></li>
+                        <li><strong>10+</strong><span>Soluciones entregadas</span></li>
+                        <li><strong>3</strong><span>Áreas: Web, IA, Automatización</span></li>
+                    </ul>
                 </div>
+                <aside class="hero-card">
+                    <h2>Stack principal</h2>
+                    <div class="chip-list">
+                        <span>.NET</span><span>JavaScript</span><span>React</span><span>Next.js</span>
+                        <span>Node.js</span><span>ASP.NET</span><span>SQL</span><span>RAG</span>
+                    </div>
+                    <p>Disponible para proyectos freelance y oportunidades Full Stack.</p>
+                </aside>
             </div>
-        </div>
-    </section>
+        </section>
 
-    <!-- Sección Sobre Mí -->
-    <section id="sobre-mi" class="about">
-        <div class="container">
-            <h2 class="section-title">Sobre Mí</h2>
-            <div class="about-content">
-                <div class="about-text">
+        <section class="section" id="sobre-mi">
+            <div class="container section-grid">
+                <div>
+                    <h2>Perfil profesional</h2>
                     <p>
-                        Desarrollador Full Stack con más de 4 años de experiencia construyendo aplicaciones web y sistemas empresariales. 
-                        Egresado de informática en la escuela ORT y actualmente estudiante de Ingeniería Informática en UADE. 
-                        Me apasiona crear soluciones tecnológicas que impactan positivamente en los negocios y mejoran la experiencia de los usuarios.
+                        Soy Full Stack Developer con experiencia en sistemas internos empresariales, plataformas e-commerce y productos orientados a eficiencia operativa.
                     </p>
                     <p>
-                        Especializado en tecnologías modernas como React, Node.js, .NET y SQL Server, he trabajado en proyectos 
-                        que van desde sistemas de gestión empresarial hasta catálogos B2B y sitios web corporativos. 
-                        Disfruto trabajando en equipo, enfrentando desafíos técnicos complejos y aprendiendo constantemente 
-                        sobre las últimas tendencias en desarrollo de software.
+                        Me gusta conectar lo técnico con impacto real de negocio: desde arquitectura y desarrollo hasta testing, automatización y mejora continua.
                     </p>
-                    <div class="education-info">
-                        <h3>Formación Académica</h3>
-                        <div class="education-item">
-                            <h4>UADE - Facultad de Ingeniería y Ciencias Exactas</h4>
-                            <p class="period">Marzo 2022 - Actualidad</p>
-                            <p>Ingeniería Informática</p>
-                        </div>
-                        <div class="education-item">
-                            <h4>Escuela Técnica ORT</h4>
-                            <p class="period">2017 - 2021</p>
-                            <p>Bachiller en Informática con Certificación Jurisdiccional en Diseño y Desarrollo de Aplicaciones Web y Móviles</p>
-                        </div>
-                    </div>
-                    <div class="about-stats">
-                        <div class="stat">
-                            <h3>4+</h3>
-                            <p>Años de Experiencia</p>
-                        </div>
-                        <div class="stat">
-                            <h3>4</h3>
-                            <p>Empresas Trabajadas</p>
-                        </div>
-                        <div class="stat">
-                            <h3>6</h3>
-                            <p>Proyectos Completados</p>
-                        </div>
-                    </div>
                 </div>
-
-                <div class="about-image">
-                    <div class="about-card">
-                        <i class="fas fa-code"></i>
-                        <h3>Desarrollo Web</h3>
-                        <p>Frontend y Backend</p>
-                    </div>
+                <div class="card">
+                    <h3>Formación</h3>
+                    <p><strong>UADE</strong><br>Ingeniería en Informática (2022 - Actualidad)</p>
+                    <p><strong>Escuela Técnica ORT</strong><br>Bachiller en Informática (2017 - 2021)</p>
+                    <h3>Idiomas</h3>
+                    <p>Español (Nativo), Inglés (Avanzado), Hebreo (Básico)</p>
                 </div>
             </div>
-        </div>
-    </section>
+        </section>
 
-    <!-- Sección Proyectos -->
-    <section id="proyectos" class="projects">
-        <div class="container">
-            <h2 class="section-title">Mis Proyectos</h2>
-            <div class="projects-grid">
-                <div class="project-card">
-                    <div class="project-image">
-                        <i class="fas fa-building"></i>
-                    </div>
-                    <div class="project-content">
-                        <h3>BeresoApi - Sistema de Gestión</h3>
-                        <p>Desarrollo de API REST y aplicación web para sistema de gestión empresarial. Incluye autenticación, gestión de usuarios y módulos administrativos.</p>
-                        <div class="project-tech">
-                            <span class="tech-tag">API REST</span>
-                            <span class="tech-tag">Java</span>
-                            <span class="tech-tag">Spring Boot</span>
-                            <span class="tech-tag">SQL Server</span>
-                        </div>
-                        <div class="project-links">
-                            <a href="http://app.beresoft.ar:8083/login" target="_blank" class="project-link"><i class="fas fa-external-link-alt"></i> Demo</a>
-                        </div>
-                        <div class="project-status">
-                            <span class="status-badge status-live">En Producción</span>
-                        </div>
-                    </div>
-                </div>
+        <section class="section alt" id="proyectos">
+            <div class="container">
+                <h2>Proyectos destacados</h2>
+                <div class="project-grid">
+                    <article class="project">
+                        <div class="project-head"><i class="fas fa-store"></i><span>E-commerce B2B</span></div>
+                        <h3>DyS Importadora</h3>
+                        <p>Catálogo web con carrito por cliente, descuentos automáticos y sincronización de pedidos con ERP.</p>
+                        <div class="tags"><span>React</span><span>Node.js</span><span>Express</span><span>SQL</span></div>
+                        <a href="https://dys-importadora.com" target="_blank" rel="noreferrer">Ver sitio</a>
+                    </article>
 
-                <div class="project-card">
-                    <div class="project-image">
-                        <i class="fas fa-globe"></i>
-                    </div>
-                    <div class="project-content">
-                        <h3>BereSoft - Sitio Web Corporativo</h3>
-                        <p>Desarrollo del sitio web oficial de BereSoft, empresa de soluciones de software a medida. Proyecto en desarrollo activo con diseño moderno y responsive.</p>
-                        <div class="project-tech">
-                            <span class="tech-tag">HTML/CSS</span>
-                            <span class="tech-tag">JavaScript</span>
-                            <span class="tech-tag">Responsive Design</span>
-                            <span class="tech-tag">Web Development</span>
-                        </div>
-                        <div class="project-links">
-                            <a href="https://beresoft.com.ar/" target="_blank" class="project-link"><i class="fas fa-external-link-alt"></i> Sitio Web</a>
-                        </div>
-                        <div class="project-status">
-                            <span class="status-badge">En Desarrollo</span>
-                        </div>
-                    </div>
-                </div>
-                <div class="project-card">
-                    <div class="project-image">
-                        <i class="fas fa-heart"></i>
-                    </div>
-                    <div class="project-content">
-                        <h3>Geriatrico ArcoIris</h3>
-                        <p>Renovación completa del sitio web corporativo para residencias geriátricas. Desarrollo en WordPress con diseño moderno y funcionalidades para gestión de servicios médicos, recreación y hotelería.</p>
-                        <div class="project-tech">
-                            <span class="tech-tag">WordPress</span>
-                            <span class="tech-tag">HTML</span>
-                            <span class="tech-tag">CSS</span>
-                            <span class="tech-tag">Web Development</span>
-                        </div>
-                        <div class="project-links">
-                            <a href="https://geriatricoarcoiris.com.ar/" target="_blank" class="project-link"><i class="fas fa-external-link-alt"></i> Sitio Web</a>
-                        </div>
-                        <div class="project-status">
-                            <span class="status-badge status-live">En Producción</span>
-                        </div>
-                    </div>
-                </div>
-                <div class="project-card">
-                    <div class="project-image">
-                        <i class="fas fa-store"></i>
-                    </div>
-                    <div class="project-content">
-                        <h3>DyS Importadora Web Page</h3>
-                        <p>Catálogo web B2B para importadora con gestión de pedidos. Permite a vendedores explorar productos, gestionar carritos por cliente, aplicar descuentos automáticos y generar pedidos que se sincronizan con el sistema ERP. Incluye autenticación, catálogo con búsqueda y filtros, carrito de compras, checkout con distribución de stock y historial de pedidos.</p>
-                        <div class="project-tech">
-                            <span class="tech-tag">React</span>
-                            <span class="tech-tag">Node.js</span>
-                            <span class="tech-tag">Express</span>
-                            <span class="tech-tag">SQL Server</span>
-                            <span class="tech-tag">Vite</span>
-                        </div>
-                        <div class="project-links">
-                            <a href="https://dys-importadora.com" target="_blank" class="project-link"><i class="fas fa-external-link-alt"></i> Sitio Web</a>
-                        </div>
-                        <div class="project-status">
-                            <span class="status-badge">En Desarrollo</span>
-                        </div>
-                    </div>
-                </div>
-                <div class="project-card">
-                    <div class="project-image">
-                        <i class="fas fa-shield-alt"></i>
-                    </div>
-                    <div class="project-content">
-                        <h3>Vivi Seguro</h3>
-                        <p>Proyecto de diseño UX/UI para plataforma de seguridad residencial. Diseño de interfaces y experiencia de usuario.</p>
-                        <div class="project-tech">
-                            <span class="tech-tag">UX/UI Design</span>
-                            <span class="tech-tag">Figma</span>
-                            <span class="tech-tag">Prototyping</span>
-                        </div>
-                        <div class="project-status">
-                            <span class="status-badge status-private">Proyecto Privado</span>
-                        </div>
-                    </div>
+                    <article class="project">
+                        <div class="project-head"><i class="fas fa-building"></i><span>Gestión empresarial</span></div>
+                        <h3>BeresoApi</h3>
+                        <p>API REST y app web para gestión interna con autenticación, usuarios y módulos administrativos.</p>
+                        <div class="tags"><span>Java</span><span>Spring Boot</span><span>SQL Server</span><span>REST API</span></div>
+                        <a href="http://app.beresoft.ar:8083/login" target="_blank" rel="noreferrer">Ver demo</a>
+                    </article>
+
+                    <article class="project">
+                        <div class="project-head"><i class="fas fa-globe"></i><span>Sitio corporativo</span></div>
+                        <h3>BereSoft</h3>
+                        <p>Sitio web corporativo para empresa de software a medida, orientado a presencia digital y captación comercial.</p>
+                        <div class="tags"><span>HTML</span><span>CSS</span><span>JavaScript</span><span>Responsive</span></div>
+                        <a href="https://beresoft.com.ar/" target="_blank" rel="noreferrer">Ver sitio</a>
+                    </article>
+
+                    <article class="project">
+                        <div class="project-head"><i class="fas fa-heart"></i><span>Sitio corporativo</span></div>
+                        <h3>Geriátrico ArcoIris</h3>
+                        <p>Renovación completa del sitio web corporativo para residencias geriátricas con enfoque en claridad de servicios y contacto.</p>
+                        <div class="tags"><span>WordPress</span><span>HTML</span><span>CSS</span><span>Web</span></div>
+                        <a href="https://geriatricoarcoiris.com.ar/" target="_blank" rel="noreferrer">Ver sitio</a>
+                    </article>
                 </div>
 
-                <div class="project-card">
-                    <div class="project-image">
-                        <i class="fas fa-shopping-bag"></i>
-                    </div>
-                    <div class="project-content">
+                <h2>Otros proyectos / Casos privados</h2>
+                <div class="project-grid">
+                    <article class="project">
+                        <div class="project-head"><i class="fas fa-comments"></i><span>IA conversacional</span></div>
+                        <h3>Chatbot Inmobiliario con RAG</h3>
+                        <p>Asistente conversacional con scraping y RAG utilizando contenido del sitio del cliente como base de conocimiento.</p>
+                        <div class="tags"><span>RAG</span><span>Scraping</span><span>Chatbot</span><span>IA</span></div>
+                        <span class="private-tag">Caso privado</span>
+                    </article>
+
+                    <article class="project">
+                        <div class="project-head"><i class="fas fa-file-shield"></i><span>Automatización judicial</span></div>
+                        <h3>Extensión para Expedientes</h3>
+                        <p>Extensión para gestión y descarga selectiva de expedientes con filtros de búsqueda y sistema de favoritos.</p>
+                        <div class="tags"><span>Extensión</span><span>Automatización</span><span>Filtros</span><span>UX</span></div>
+                        <span class="private-tag">Caso privado</span>
+                    </article>
+
+                    <article class="project">
+                        <div class="project-head"><i class="fas fa-scale-balanced"></i><span>Búsqueda contextual</span></div>
+                        <h3>Buscador Conversacional Judicial</h3>
+                        <p>Buscador de expedientes por chat con recuperación contextual de resultados para acelerar la consulta legal.</p>
+                        <div class="tags"><span>IA</span><span>RAG</span><span>Búsqueda</span><span>Conversacional</span></div>
+                        <span class="private-tag">Caso privado</span>
+                    </article>
+
+                    <article class="project">
+                        <div class="project-head"><i class="fas fa-bag-shopping"></i><span>E-commerce Frontend</span></div>
                         <h3>MainShop</h3>
-                        <p>Desarrollo Front-End para plataforma de comercio electrónico. Aplicación web con funcionalidades de e-commerce.</p>
-                        <div class="project-tech">
-                            <span class="tech-tag">React</span>
-                            <span class="tech-tag">JavaScript</span>
-                            <span class="tech-tag">CSS</span>
-                        </div>
-                        <div class="project-status">
-                            <span class="status-badge status-private">Proyecto Privado</span>
-                        </div>
-                    </div>
-                </div>
+                        <p>Desarrollo front-end para plataforma de comercio electrónico con foco en experiencia de compra.</p>
+                        <div class="tags"><span>React</span><span>JavaScript</span><span>CSS</span></div>
+                        <span class="private-tag">Proyecto privado</span>
+                    </article>
 
-           
-            </div>
-        </div>
-    </section>
-
-    <!-- Sección Experiencia -->
-    <section id="experiencia" class="experience">
-        <div class="container">
-            <h2 class="section-title">Experiencia Laboral</h2>
-            <div class="experience-content">
-                <div class="experience-item">
-                    <div class="experience-header">
-                        <h3>Developer</h3>
-                        <span class="company">Garantizar SGR</span>
-                        <span class="period">Junio 2024 - Actualidad</span>
-                    </div>
-                    <p>Trabajando en el propio sistema de la empresa, desarrollando y testeando. Usando generalmente .NET y SQL.</p>
-                </div>
-                
-                <div class="experience-item">
-                    <div class="experience-header">
-                        <h3>Full Stack Developer</h3>
-                        <span class="company">NextCommerce</span>
-                        <span class="period">Octubre 2023 - Marzo 2024</span>
-                    </div>
-                    <p>Adquirí conocimientos de ASP.NET, C#, SQL y React.js.</p>
-                </div>
-                
-                <div class="experience-item">
-                    <div class="experience-header">
-                        <h3>QA Developer</h3>
-                        <span class="company">Ernst & Young</span>
-                        <span class="period">Mayo 2022 - Abril 2023</span>
-                    </div>
-                    <p>Adquirí conocimientos de Karate, Blue Prism, Selenium y Java.</p>
-                </div>
-                
-                <div class="experience-item">
-                    <div class="experience-header">
-                        <h3>Práctica Pre-Profesional en UX</h3>
-                        <span class="company">VU Security</span>
-                        <span class="period">Octubre 2021 - Diciembre 2021</span>
-                    </div>
-                    <p>Adquirí conocimientos sobre cómo funciona el mundo UX/UI.</p>
-                </div>
-                
-                <div class="experience-item">
-                    <div class="experience-header">
-                        <h3>Líder en Educación No Formal</h3>
-                        <span class="company">Macabi Club</span>
-                        <span class="period">Marzo 2021 - Actualidad</span>
-                    </div>
-                    <p>Liderazgo de un grupo de niños, acompañamiento personalizado y desarrollo de técnicas para su inclusión.</p>
+                    <article class="project">
+                        <div class="project-head"><i class="fas fa-shield-halved"></i><span>UX/UI</span></div>
+                        <h3>Vivi Seguro</h3>
+                        <p>Diseño UX/UI para plataforma de seguridad residencial, orientado a flujos claros y uso simple.</p>
+                        <div class="tags"><span>UX/UI</span><span>Figma</span><span>Prototipado</span></div>
+                        <span class="private-tag">Proyecto privado</span>
+                    </article>
                 </div>
             </div>
-        </div>
-    </section>
+        </section>
 
-    <!-- Sección Habilidades -->
-    <section id="habilidades" class="skills">
-        <div class="container">
-            <h2 class="section-title">Habilidades</h2>
-            <div class="skills-content">
-                <div class="skills-category">
-                    <h3>Lenguajes de Programación</h3>
-                    <div class="skills-grid">
-                        <div class="skill-item">
-                            <i class="fab fa-java"></i>
-                            <span>Java</span>
-                        </div>
-                        <div class="skill-item">
-                            <i class="fas fa-hashtag"></i>
-                            <span>C#</span>
-                        </div>
-                        <div class="skill-item">
-                            <i class="fab fa-python"></i>
-                            <span>Python</span>
-                        </div>
-                        <div class="skill-item">
-                            <i class="fab fa-js-square"></i>
-                            <span>JavaScript</span>
-                        </div>
-                        <div class="skill-item">
-                            <i class="fas fa-code"></i>
-                            <span>C++</span>
-                        </div>
-                    </div>
-                </div>
+        <section class="section" id="experiencia">
+            <div class="container">
+                <h2>Experiencia</h2>
+                <div class="timeline">
+                    <article class="timeline-item">
+                        <header>
+                            <h3>Garantizar SG</h3>
+                            <span>Full Stack Developer · Junio 2024 - Actualidad</span>
+                        </header>
+                        <p>Desarrollo y mantenimiento del sistema interno, nuevas funcionalidades con .NET y JavaScript, testing funcional y soporte evolutivo.</p>
+                    </article>
 
-                <div class="skills-category">
-                    <h3>Frameworks & Tecnologías</h3>
-                    <div class="skills-grid">
-                        <div class="skill-item">
-                            <i class="fab fa-react"></i>
-                            <span>React</span>
-                        </div>
-                        <div class="skill-item">
-                            <i class="fab fa-node-js"></i>
-                            <span>Node.js</span>
-                        </div>
-                        <div class="skill-item">
-                            <i class="fas fa-leaf"></i>
-                            <span>Spring Boot</span>
-                        </div>
-                        <div class="skill-item">
-                            <i class="fab fa-microsoft"></i>
-                            <span>.NET</span>
-                        </div>
-                        <div class="skill-item">
-                            <i class="fas fa-database"></i>
-                            <span>SQL</span>
-                        </div>
-                        <div class="skill-item">
-                            <i class="fab fa-wordpress"></i>
-                            <span>WordPress</span>
-                        </div>
-                        <div class="skill-item">
-                            <i class="fas fa-server"></i>
-                            <span>Express</span>
-                        </div>
-                        <div class="skill-item">
-                            <i class="fas fa-bolt"></i>
-                            <span>Vite</span>
-                        </div>
-                    </div>
-                </div>
+                    <article class="timeline-item">
+                        <header>
+                            <h3>NextCommerce</h3>
+                            <span>Full Stack Developer · Oct 2023 - Jun 2024</span>
+                        </header>
+                        <p>Desarrollo de soluciones e-commerce para distintos clientes con Next.js, React.js, Node.js y ASP.NET.</p>
+                    </article>
 
-                <div class="skills-category">
-                    <h3>Testing & Herramientas</h3>
-                    <div class="skills-grid">
-                        <div class="skill-item">
-                            <i class="fas fa-bug"></i>
-                            <span>Selenium</span>
+                    <article class="timeline-item">
+                        <header>
+                            <h3>Ernst & Young</h3>
+                            <span>Automation / QA Developer · Feb 2022 - Oct 2023</span>
+                        </header>
+                        <p>Automatización de procesos bancarios y testing con Blue Prism, Selenium, Karate y Java.</p>
+                    </article>
+
+                    <article class="timeline-item freelance">
+                        <header>
+                            <h3>Freelance destacado</h3>
+                            <span>BereSoft + Inteligencia Legal</span>
+                        </header>
+                        <div class="freelance-columns">
+                            <div>
+                                <h4>BereSoft</h4>
+                                <ul>
+                                    <li>Webs corporativas, e-commerce, APIs y apps internas.</li>
+                                    <li>Integración con sistemas internos y catálogo/pedidos.</li>
+                                    <li>App para tablets con soporte offline.</li>
+                                </ul>
+                            </div>
+                            <div>
+                                <h4>Inteligencia Legal</h4>
+                                <ul>
+                                    <li>Soluciones con IA, scraping y RAG.</li>
+                                    <li>Herramientas de búsqueda contextual y recuperación de información.</li>
+                                    <li>Casos: chatbot inmobiliario y buscador conversacional judicial.</li>
+                                </ul>
+                            </div>
                         </div>
-                        <div class="skill-item">
-                            <i class="fas fa-robot"></i>
-                            <span>Blue Prism</span>
-                        </div>
-                        <div class="skill-item">
-                            <i class="fas fa-fist-raised"></i>
-                            <span>Karate</span>
-                        </div>
-                        <div class="skill-item">
-                            <i class="fas fa-paper-plane"></i>
-                            <span>Postman</span>
-                        </div>
-                        <div class="skill-item">
-                            <i class="fab fa-html5"></i>
-                            <span>HTML/CSS</span>
-                        </div>
-                    </div>
+                    </article>
                 </div>
             </div>
-        </div>
-    </section>
+        </section>
 
-    <!-- Sección Contacto -->
-    <section id="contacto" class="contact">
-        <div class="container">
-            <h2 class="section-title">Contacto</h2>
-            <div class="contact-content">
-                <div class="contact-info">
-                    <h3>¡Trabajemos juntos!</h3>
-                    <p>¿Tienes un proyecto en mente? Me encantaría escuchar sobre él.</p>
-                    <div class="contact-details">
-                        <div class="contact-item">
-                            <i class="fas fa-envelope"></i>
-                            <span>martinhacker02@gmail.com</span>
-                        </div>
-                        <div class="contact-item">
-                            <i class="fas fa-phone"></i>
-                            <span>+54 6471-5204</span>
-                        </div>
-                        <div class="contact-item">
-                            <i class="fas fa-map-marker-alt"></i>
-                            <span>Buenos Aires, Argentina</span>
-                        </div>
-                    </div>
-                    <div class="social-links">
-                        <a href="https://github.com/martohacker" class="social-link"><i class="fab fa-github"></i></a>
-                        <a href="https://ar.linkedin.com/in/martin-hacker-b2096a208" class="social-link"><i class="fab fa-linkedin"></i></a>
-                        <a href="https://wa.me/54964715204" class="social-link"><i class="fab fa-whatsapp"></i></a>
-                        <a href="mailto:martinhacker02@gmail.com" class="social-link"><i class="fas fa-envelope"></i></a>
+        <section class="section alt" id="skills">
+            <div class="container">
+                <h2>Skills técnicas y profesionales</h2>
+                <div class="skills-layout">
+                    <article class="skill-block">
+                        <h3>Frontend</h3>
+                        <p>React.js, Next.js, HTML, CSS, JavaScript</p>
+                    </article>
+                    <article class="skill-block">
+                        <h3>Backend</h3>
+                        <p>.NET, ASP.NET, Node.js, Spring Boot, APIs REST</p>
+                    </article>
+                    <article class="skill-block">
+                        <h3>Data / QA / Automation</h3>
+                        <p>SQL, Selenium, Karate, Blue Prism, Postman</p>
+                    </article>
+                    <article class="skill-block">
+                        <h3>IA Aplicada</h3>
+                        <p>Scraping, RAG, buscadores conversacionales, automatización inteligente</p>
+                    </article>
+                    <article class="skill-block">
+                        <h3>Soft Skills</h3>
+                        <p>Comunicación, organización, adaptabilidad, resolución de problemas y trabajo en equipo</p>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <section class="section" id="contacto">
+            <div class="container contact-panel">
+                <div>
+                    <h2>Trabajemos juntos</h2>
+                    <p>Si buscás a alguien para construir o escalar un producto digital, escribime y coordinamos.</p>
+                    <ul class="contact-list">
+                        <li><i class="fas fa-envelope"></i> martinhacker02@gmail.com</li>
+                        <li><i class="fas fa-phone"></i> +54 11 6471-5204</li>
+                        <li><i class="fas fa-location-dot"></i> Buenos Aires, Argentina</li>
+                    </ul>
+                    <div class="social">
+                        <a href="https://github.com/martohacker" target="_blank" rel="noreferrer"><i class="fab fa-github"></i></a>
+                        <a href="https://www.linkedin.com/in/martin-hacker-b2096a208/" target="_blank" rel="noreferrer"><i class="fab fa-linkedin"></i></a>
+                        <a href="https://martohacker.github.io/martin-hacker-portfolio/" target="_blank" rel="noreferrer"><i class="fas fa-briefcase"></i></a>
+                        <a href="https://wa.me/5491164715204" target="_blank" rel="noreferrer"><i class="fab fa-whatsapp"></i></a>
                     </div>
                 </div>
+
                 <form class="contact-form" action="https://formspree.io/f/tu-endpoint-aqui" method="POST">
-                    <div class="form-group">
-                        <input type="text" name="name" placeholder="Tu nombre" required>
-                    </div>
-                    <div class="form-group">
-                        <input type="email" name="email" placeholder="Tu email" required>
-                    </div>
-                    <div class="form-group">
-                        <textarea name="message" placeholder="Tu mensaje" rows="5" required></textarea>
-                    </div>
-                    <button type="submit" class="btn btn-primary">Enviar Mensaje</button>
+                    <label>Nombre
+                        <input type="text" name="name" required>
+                    </label>
+                    <label>Email
+                        <input type="email" name="email" required>
+                    </label>
+                    <label>Mensaje
+                        <textarea name="message" rows="5" required></textarea>
+                    </label>
+                    <button type="submit" class="btn btn-primary">Enviar mensaje</button>
                 </form>
             </div>
-        </div>
-    </section>
+        </section>
+    </main>
 
-    <!-- Footer -->
     <footer class="footer">
         <div class="container">
-            <p>&copy; 2025 Martin Hacker. Todos los derechos reservados.</p>
+            <p>&copy; 2026 Martin Hacker · Full Stack Developer</p>
         </div>
     </footer>
 
     <script src="script.js"></script>
 </body>
-</html> 
+</html>
